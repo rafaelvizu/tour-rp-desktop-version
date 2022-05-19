@@ -28,7 +28,7 @@ header {
     padding: 10px;
 }
 
-#registro, input, button {
+#registro, input, button, header,nav {
     box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.39);
 }
 
@@ -61,7 +61,7 @@ a.redefinir-senha{
 
 
 @media (max-width: 600px){
-    header > a > img {
+    #secundario > a > img,  #primario > img{
         display: block;
         margin: auto;
         width: 90vw;
@@ -149,7 +149,7 @@ a.redefinir-senha{
 
 
 @media (min-width: 600px) and (max-width: 1000px){
-    header > a > img {
+    #secundario > a > img,  #primario > img {
         display: block;
         margin: auto;
         width: 90vw;
@@ -245,7 +245,7 @@ a.redefinir-senha{
 
 
 @media (min-width: 1000px){
-    header > a > img {
+    #secundario > a > img,  #primario > img {
         display: block;
         margin: auto;
         width: 26vw;
