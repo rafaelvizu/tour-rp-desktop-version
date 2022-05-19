@@ -72,3 +72,16 @@ Tem um encontro e não sabe onde ir? Compartilhe seu perfil com o crush e a Tour
 <p>Com a Tour conheça os melhores lugares baseado no seu gosto!</p>
 </section>
 <img src="readme_arq/logo.png" alt="">
+
+<section>
+  <h2>Participantes</h2>
+  <ul>
+    <li>Henrique Barucco Sanches</li>
+    <li>Ana Carolina Candido Ferreira</li>
+    <li>Yara Vieira Aranres</li>
+    <li>Phelipe Lorran De Lucca</li>
+    <li>Jeferson Ricardo do Nascimento</li>
+    <li>Bárbara Hernandez Pernia Peres Mendes</li>
+    <li>Rafael Henrique Vizú Fernandes</li>
+    <li>Gabriel de Jesus Antunes</li>
+</section>
