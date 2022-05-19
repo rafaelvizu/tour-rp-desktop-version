@@ -1,0 +1,256 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+:root {
+    --cor01: #D91E41;
+    --cor02: #1A2730;
+    --cor03: #0388A6;
+    --cor04: #EDEDED;
+    --cor05: #d2d2d2f1;
+    --fonte1: 'Raleway', sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: var(--cor02);
+}
+
+header {
+    background-color: var(--cor03);
+    padding: 10px;
+}
+
+#registro, .email, .senha, button {
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.39);
+}
+
+a.redefinir-senha{
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: var(--cor02);
+}
+
+.redefinir-senha:hover {
+    text-decoration: none;
+    color: var(--cor03);
+}
+
+
+@media (max-width: 600px){
+    header > a > img {
+        display: block;
+        margin: auto;
+        width: 90vw;
+    }
+    #registro {
+        background-color: var(--cor04);
+        margin: 20vw auto;
+        padding: 2.5%;
+        border-radius: 1em;
+    }
+    
+    #login-senha > h2 {
+        font-weight: inherit;
+        font-size: 2em;
+        text-shadow: black 1px 0px 1px;
+        color: var(--cor03);
+    }
+    
+    #login-senha > h2 {
+        text-align: center;
+        padding: 20px
+    }
+    
+    #login-senha > input {
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+        border-radius: 0.4em;
+    
+        height: 5vh;
+        width: 90vw;
+    
+        font-size: 1.3em;
+        text-indent: 1.6em;
+    
+    }
+    
+    .email {
+        background-image: url(../imgs/icons/o-email.png);
+        background-size: 20px;
+        background-repeat: no-repeat;
+        background-position: 10px center;
+    
+    }
+    
+    .senha {
+        background-image: url(../imgs/icons/senha.png);
+        background-size: 20px;
+        background-repeat: no-repeat;
+        background-position: 10px center;
+    }
+    
+    #login-senha > button {
+        display: block;
+        margin: 30px auto;
+        padding: 2vh 100px;
+        border-radius: 1em;
+    
+        background-color: var(--cor02);
+        color: white;
+    }
+    #login-senha > button:hover {
+        background-color: var(--cor03);
+    }
+    
+}
+
+
+@media (min-width: 600px) and (max-width: 1000px){
+    header > a > img {
+        display: block;
+        margin: auto;
+        width: 90vw;
+    }
+    #registro {
+        background-color: var(--cor04);
+        margin: 20% auto;
+        width: 600px;
+        padding: 10vw;
+        border-radius: 2em;
+    }
+    
+    #login-senha > h2 {
+        font-weight: inherit;
+        font-size: 3em;
+        text-shadow: black 1px 0px 1px;
+    }
+    
+    #login-senha > h2 {
+        text-align: center;
+        padding: 20px;
+        color: var(--cor03)
+    }
+    
+    #login-senha > input {
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+        border-radius: 0.4em;
+    
+        height: 6vh;
+        width: 60vw;
+    
+        font-size: 2em;
+        text-indent: 2.2em;
+    
+    }
+    
+    .email {
+        background-image: url(../imgs/icons/o-email.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: 10px center;
+    
+    }
+    
+    .senha {
+        background-image: url(../imgs/icons/senha.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: 10px center;
+    }
+    
+    #login-senha > button {
+        display: block;
+        margin: 30px auto;
+        padding: 2vh 150px;
+        border-radius: 1em;
+        font-size: 2em;
+    
+        background-color: var(--cor02);
+        color: white;
+    }
+
+    #login-senha > button:hover {
+        background-color: var(--cor03);
+    }
+
+}
+
+@media (min-width: 1000px){
+    header > a > img {
+        display: block;
+        margin: auto;
+        width: 30vw;
+    }
+    #registro {
+        background-color: var(--cor04);
+        margin: 5% auto;
+        padding: 100px;
+        width: 800px;
+        border-radius: 1.6em;
+    }
+    
+    #login-senha > h2 {
+        font-weight: inherit;
+        font-size: 3em;
+        text-shadow: black 1px 0px 1px;
+        color: var(--cor03)
+    }
+    
+    #login-senha > h2 {
+        text-align: center;
+        padding: 10px 0px 50px 0px
+    }
+    
+    #login-senha > input {
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+        border-radius: 0.4em;
+    
+        height: 5vh;
+        width: 650px;
+    
+        font-size: 1.3em;
+        text-indent: 2em;
+    }
+    
+    .email {
+        background-image: url(../imgs/icons/o-email.png);
+        background-size: 20px;
+        background-repeat: no-repeat;
+        background-position: 10px center;
+    
+    }
+    
+    .senha {
+        background-image: url(../imgs/icons/senha.png);
+        background-size: 20px;
+        background-repeat: no-repeat;
+        background-position: 10px center;
+    }
+    
+    #login-senha > button {
+        display: block;
+        margin: 30px auto;
+        padding: 2vh 100px;
+        border-radius: 1em;
+    
+        background-color: var(--cor02);
+        color: white;
+    }
+    #login-senha > button:hover {
+        background-color: var(--cor03);
+    }
+    
+}
