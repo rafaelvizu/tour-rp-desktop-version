@@ -74,7 +74,7 @@ Tem um encontro e não sabe onde ir? Compartilhe seu perfil com o crush e a Tour
 <img src="readme_arq/logo.png" alt="">
 
 <section>
-  <h2>Participantes</h2>
+  <h2>Participantes do projeto ao todo</h2>
   <ul>
     <li>Henrique Barucco Sanches</li>
     <li>Ana Carolina Candido Ferreira</li>
