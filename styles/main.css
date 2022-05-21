@@ -21,9 +21,8 @@ nav{
 nav > a {
     border-radius: 0.2em;
     text-decoration: none;
-    color: black;
     padding: 4px 15px;;
-    background: #d2d2d2c2;
+    
     
 }
 nav> a:hover {
@@ -33,13 +32,19 @@ nav> a:hover {
 @media (max-width: 600px){
     nav > a{ 
         font-size: 1.5em;
+        background: #d2d2d2c2;
+        color: black;
     }
 
 }
 
 @media (min-width: 600px){
     nav > a{
-        font-size: 1.8em;   
+        font-size: 1.8em;
+        color: rgba(255, 255, 255, 0.74);   
+    }
+    nav > a:hover {
+        text-decoration: underline;
     }
 
 }
